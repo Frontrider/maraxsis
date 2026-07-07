@@ -198,7 +198,7 @@ data:extend { {
 data:extend { {
     type = "recipe",
     name = "maraxsis-hydro-plant",
-    categories = { "maraxsis-hydro-plant", "crafting-with-fluid" },
+    categories = { "maraxsis-hydro-plant", "chemistry" },
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -210,7 +210,6 @@ data:extend { {
     results = {
         { type = "item", name = "maraxsis-hydro-plant", amount = 1 },
     },
-    caregories = { "maraxsis-hydro-plant", "chemistry" },
     surface_conditions = maraxsis.surface_conditions(),
 } }
 
@@ -226,7 +225,6 @@ data:extend { {
         { type = "item", name = "holmium-plate", amount = 5 },
     },
     energy_required = data.raw.recipe["holmium-plate"].energy_required * 5,
-    caregories = { "maraxsis-hydro-plant" },
     enabled = false,
     auto_recycle = false,
     icons = {
